@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Futura';
+    src: url(fonts/futura.woff) format('woff');
+}
+@font-face {
+    font-family: 'Futura';
+    src: url(fonts/futura-bold.woff) format('woff');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Futura', sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+.content {
+    padding: 60px 2em;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    vertical-align: center;;
+}
+
+.right-align {
+    text-align: right;
+    align-items: right;
+}
+
+.breathing-room-vertical {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.mnsu {
+    background: #480059 !important;;
+    color: #f7e400 !important;
+}
+
+.mnsu-modal {
+    --bs-body-bg: #222;
+    --bs-body-color: #fff;
+    --bs-modal-color: #fff;
+    --bs-secondary-color: #aaa;
+}
+
+.success {
+    font-size: 200%;
+    color: #1a1;
+}
+
+.failure {
+    font-size: 200%;
+    color: #d33;
+}
+
+th {
+    font-weight:900;
+}
