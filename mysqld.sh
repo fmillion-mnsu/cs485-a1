@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chown -r mysql /var/lib/mysql
+chown -R mysql /var/lib/mysql
 
 /usr/bin/mysqld_safe &
 
